@@ -10,4 +10,4 @@ It's my first time working with calls so please be merciful, coding Majesties.
 
 [Demo](http://olivercedres.com/playground/marvel/index.html "Marvel Characters using Marvel Comics API")
 
-![Comics](https://pixabay.com/static/uploads/photo/2016/03/06/04/14/comics-1239698_960_720.jpg)
+![Comics](http://the-artifice.com/wp-content/uploads/2016/02/Spider-Man_Deadpool_2_var.jpg)
