@@ -8,6 +8,6 @@ Why Marvel? They have Deadpool and Spider-Man, need any other reason?
 
 It's my first time working with calls so please be merciful, coding Majesties.
 
-[Demo](olivercedres.com/playground/marvel/index.html "Marvel Characters using Marvel Comics API")
+[Demo](http://olivercedres.com/playground/marvel/index.html "Marvel Characters using Marvel Comics API")
 
 ![Comics](https://pixabay.com/static/uploads/photo/2016/03/06/04/14/comics-1239698_960_720.jpg)
