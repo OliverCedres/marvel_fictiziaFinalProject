@@ -1,0 +1,72 @@
+ html {
+    position: relative;
+    min-height: 100%;
+}
+img, p, a, div{text-align: center !important;}
+body {
+    padding-top: 160px;
+    margin-bottom: 60px;
+}
+h1{margin: 40px 0;text-align: center;}
+a{color: #c40d15;}
+a:hover{
+    color: #f0141e;
+    text-decoration: none;
+}
+
+#img-cargando {
+    max-width: 200px;
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#row-contenido {margin-top: 30px;}
+
+#error-ajax, #personaje-foto, #mainEvents {display: none;}
+
+#campo-buscador {
+    margin: 0 auto;
+    width: 300px;
+}
+
+#cargando {
+    float: none;
+    margin: auto;
+    display: none;
+}
+#contenido {text-align: center;}
+#personaje-descripcion{text-align: left;}
+.personaje-inf
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+.reminder {
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
+}
+#titulos{margin-top: 40px;}
+#titulos div{display: inline-block;margin: 0 5px;width: 30%;}
+#titulos div p{margin-top: 20px;}
+#titulos div img{width: 80%;}
+.url{margin-top: 20px;text-align: center;}
+.url a{display:none;font-size: 16px;font-weight: 700;}
+
+footer {
+    background-color: #000;
+    bottom: 0;
+    color: #FFF;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.fictizia{color: #00B5AC;}
+.fictizia:hover{color: #56E0D6;}
+footer h5  {display: inline-block;}

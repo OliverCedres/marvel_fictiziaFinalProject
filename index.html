@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Marvel Characters</title>
+    <meta content="Oliver Cedres" name="author"/>
+    <meta content="Curso-JS-para-desarrolladores-web Final project - Using APIs with JavaScript" name="description"/>
+    <meta content="MARVEL, characters, javascript, final project" name="keywords"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+
+    <!-- Boostrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+
+    <header>
+        <h1>Marvel Characters using <a href="https://developer.marvel.com" target="_blank">Marvel Comics API</a></h1>
+    </header>
+    <div class="container">
+
+        <div class="alert alert-dismissible alert-danger" id="error-ajax">
+            <button type="button" class="close" data-dismiss="alert">x</button>
+            <strong>Oh Error!</strong> Error loading data from <a href="https://developer.marvel.com" target="_blank" class="alert-link">Marvel Comics API</a>
+        </div>
+
+
+        <div class="row" id="row-buscador">
+            <div class="col-md-12" id="col-buscador">
+                <div class="input-group col-centered" id="campo-buscador">
+                    <input type="text" id="nombrePersonaje" class="form-control" placeholder="your favourite Marvel character..." required>
+                </div>
+                <p class="reminder">*Please, remember that some characters such as Spider-Man or the X-Men are named with a hyphen between words.</p>
+            </div>
+        </div>
+        <div id="contenido" class="row">
+            <div class="col-md-12 personaje-info">
+                <h2 id="personaje-nombre"></h2>
+            </div>
+            <div class="col-md-12 personaje-foto">
+                <img id="personaje-foto" class="img-responsive col-md-offset-2 col-md-4" src="" alt="Your character">
+                <p id="personaje-descripcion" class="col-md-4"></p>
+            </div>
+            <div class="col-md-12 url">
+                <a class="col-sx-12 col-md-4" href="" id="personaje-details" class="img-responsive" target="_blank">Details</a>
+                <a class="col-sx-12 col-md-4" href="" id="personaje-wiki" class="img-responsive" target="_blank">Wiki</a>
+                <a class="col-sx-12 col-md-4" href="" id="personaje-comics" class="img-responsive" target="_blank">Comics</a>
+            </div>
+            <div class="col-md-12" id="titulos">
+                <h2 id="mainEvents">Main events in which your character appears</h2>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <h5>Final project of <a class="fictizia" href="http://www.fictizia.com/formacion/curso_javascript" target="_blank">Fictizia's Curso-JS-para-desarrolladores-web</a>  - Coded with love by<a href="http://olivercedres.com" title="Oliver Cedres Website"> Oliver Cedres®</a> 2016</h5>
+        </div>
+    </footer>
+
+      <!-- Boostrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+    <!-- My script -->
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
